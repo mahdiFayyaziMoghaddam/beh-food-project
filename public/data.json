@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "پیتزا پپرونی",
+    "title": "خمیر پیتزا، پنیر پیتزا، سوسیس پپرونی، گوجه فرنگی، فلفل دلمه‌ای، قارچ، نمک، فلفل، آویشن و جوز هندی",
+    "price": 17000,
+    "prevPrice": 45000,
+    "image": "pizza.svg",
+    "type": "lunch"
+  },
+  {
+    "id": 2,
+    "name": "ساندویچ مرغ",
+    "title": "نان ساندویچ، مرغ، خیار شور، ریحان، کاچاپ، مایونز",
+    "price": 12000,
+    "prevPrice": 0,
+    "image": "pizza.svg",
+    "type": "lunch"
+  },
+  {
+    "id": 3,
+    "name": "املت قارچ",
+    "title": "تخم‌مرغ، قارچ، کره، نمک، فلفل سیاه",
+    "price": 8000,
+    "prevPrice": 15000,
+    "image": "pizza.svg",
+    "type": "breakfast"
+  },
+  {
+    "id": 4,
+    "name": "برگر گوشت",
+    "title": "گوشت گوساله، سس برگر، خیار شور، پنیر چدار، پیاز، گوجه فرنگی",
+    "price": 25000,
+    "prevPrice": 35000,
+    "image": "pizza.svg",
+    "type": "lunch"
+  },
+  {
+    "id": 5,
+    "name": "نان تست و عسل",
+    "title": "نان تست، عسل طبیعی، کره",
+    "price": 7000,
+    "prevPrice": 12000,
+    "image": "pizza.svg",
+    "type": "breakfast"
+  },
+  {
+    "id": 6,
+    "name": "پنکیک",
+    "title": "آرد، تخم‌مرغ، شیر، شکر، وانیل، عسل",
+    "price": 10000,
+    "prevPrice": 18000,
+    "image": "pizza.svg",
+    "type": "breakfast"
+  },
+  {
+    "id": 7,
+    "name": "سالاد مرغ و سبزیجات",
+    "title": "مرغ، کاهو، گوجه، خیار، روغن زیتون",
+    "price": 15000,
+    "prevPrice": 25000,
+    "image": "pizza.svg",
+    "type": "lunch"
+  },
+  {
+    "id": 8,
+    "name": "فرنچ تست",
+    "title": "نان تست، تخم‌مرغ، شیر، شکر، وانیل، کره",
+    "price": 9000,
+    "prevPrice": 0,
+    "image": "pizza.svg",
+    "type": "breakfast"
+  },
+  {
+    "id": 9,
+    "name": "پاستا آلفردو",
+    "title": "ماکارونی، خامه، سیر، پنیر پارمزان، مرغ",
+    "price": 20000,
+    "prevPrice": 30000,
+    "image": "pizza.svg",
+    "type": "lunch"
+  },
+  {
+    "id": 10,
+    "name": "تخم‌مرغ آب‌پز",
+    "title": "تخم‌مرغ، نمک، فلفل",
+    "price": 5000,
+    "prevPrice": 0,
+    "image": "pizza.svg",
+    "type": "breakfast"
+  }
+]
