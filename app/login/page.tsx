@@ -140,7 +140,7 @@ export default function Login() {
       </Modal>
 
       <div className="flex flex-col justify-between items-center w-[117px] h-[164px] absolute top-[150px] sm:top-[220px]" style={{left: '50%', transform: 'translateX(-50%)'}}>
-        <Image onDragStart={(e) => e.preventDefault()} className="select-none" src={'icon.svg'} width={117} height={117} alt="logo" />
+        <Image onDragStart={(e) => e.preventDefault()} className="select-none" src={'images/icon.svg'} width={117} height={117} alt="logo" />
         <div className="flex justify-between w-[117px] h-[36px]">
           <span className="w-[44px] h-[36px] font-medium text-lg text-center text-black select-none font-Vazir">BEH</span>
           <span className="w-[69px] h-[36px] font-extrabold text-lg text-center text-[#F6510B] select-none font-Vazir">FOOD</span>

@@ -19,7 +19,7 @@ export default function Cart({ name , title, image, price, prevPrice,onAddFood}:
         {title}
       </p>
       </div>
-      <Image className="absolute top-[12px] right-[12px] rounded-[10px]" width={108} height={108} src={image} alt="Food"/>
+      <Image className="absolute top-[12px] right-[12px] rounded-[10px]" width={108} height={108} src={`images/${image}`} alt="Food"/>
       </div>
       {
         prevPrice && (
@@ -43,7 +43,7 @@ export default function Cart({ name , title, image, price, prevPrice,onAddFood}:
       >
         <Box sx={{backgroundColor: '#FFF', textAlign: 'right', width: '538px', height: '697px', position: 'fixed', top: 'calc(50vh - 348px)', left: 'calc(50vw - 269px)',outline: 'none', borderRadius: '10px'}}>
 
-      <Image className="absolute top-[20px] right-[19px] rounded-[50px] border-[#00000040] border-[0.2px]" width={500} height={500} src={image} alt="Food"/>
+      <Image className="absolute top-[20px] right-[19px] rounded-[50px] border-[#00000040] border-[0.2px]" width={500} height={500} src={`images/${image}`} alt="Food"/>
 
         <div className="flex flex-col justify-between absolute top-[529px] left-[19px] w-[500px] h-[75px] text-right">
       <p className="w-full h-[28px] font-semibold text-[25px] leading-[28px] text-end">{name}</p>

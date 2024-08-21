@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from 'react'
 import ChangeOrder from "@/components/buttons/ChangeOrder";
 
-export default function OrderCart({name,price,onRemove,onChangeCount,setValue}:any) {
+export default function OrderCart({name,price,onRemove,onChangeCount}:any) {
   
   return (
     <>
@@ -13,7 +13,7 @@ export default function OrderCart({name,price,onRemove,onChangeCount,setValue}:a
           <span className="text-[16px] font-bold text-center leading-[22px]">{price}</span>
           <span className="text-[14px] font-medium select-none text-center leading-[22px]">تومان</span>
         </div>
-        <ChangeOrder className='mb-2 ml-3' onDelete={onRemove} getCount={(num:number) => {onChangeCount(num),setValue()}} />
+        <ChangeOrder className='mb-2 ml-3' onDelete={onRemove} getCount={(num:number) => {onChangeCount(num)}} />
       </div> 
 
     </>
